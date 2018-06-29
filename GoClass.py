@@ -18,6 +18,7 @@ class Go():
     
         #Initialize the position and neighbor stones
         for i in range(self._size):
+            pass
             for j in range(self._size):
                 self.legal_actions.append((i,j))
                 self.stones[i,j]._position = (i,j)
